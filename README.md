@@ -72,7 +72,7 @@ If you want more help you can check out the [Example client](https://github.com/
 Packaging your mod for installation
 -------------------
 
-1. Export your mod to a jar file named `Client.jar` (Must be that name!)
+1. Export your mod to a jar file named `Client.jar` (Must be that name!). It must include `client.json` in its root directory.
 2. Download the [latest EMC installer](https://github.com/Moudoux/EMC-Installer/releases)
 2. Open the installer jar file, drag the `EMC.json` file to your desktop (for example)
 3. Open the json file and change the client name to your client name.
