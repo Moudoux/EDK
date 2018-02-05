@@ -14,18 +14,19 @@ Setting up your IDE to develop with EMC
 Making your first mod with EMC
 -------------------
 
-1. Create a file called `client.json` in the root of your project
+1. Create a file called `client.json` in the root of your project, this file is used so that EMC can find your main class and info about your mod.
 2. In that file add the following:
 
 ```
 {
 
-    "name":"<Client name>",
-    "website":"<Client website>",
-    "author":"<Who made the client>",
-    "minversion":<Minimum version of EMC required to run your client, integer>,
-    "version":<Your client version, integer>,
-    "main":"<The main class>"
+    "name":"EMC Client",
+    "website":"https://github.com/Moudoux/Example-EMC-Client",
+    "author":"Deftware",
+    "minversion":12.8,
+    "version":1,
+    "main":"me.deftware.client.Main.Main",
+    "updateLinkOverride": false
 
 }
 ```
@@ -49,8 +50,8 @@ public class Main extends EMCClient {
 	
 	@Override
 	public void initialize() {
-		// Client name, Client version
-		clientInfo = new ClientInfo("Example client", "1");
+		// Mod name, mod version
+		clientInfo = new ClientInfo("Example mod", "1");
 	}
 
 	@Override
@@ -67,7 +68,7 @@ public class Main extends EMCClient {
 }
 ```
 
-If you want more help you can check out the [Example client](https://github.com/Moudoux/Example-EMC-Client) made with EMC.
+If you want more help you can check out the [Example mod](https://github.com/Moudoux/Example-EMC-Client) made with EMC.
 
 Packaging your mod for installation
 -------------------
