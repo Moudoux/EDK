@@ -1,6 +1,14 @@
 The EMC (Easy Minecraft Client) Development Kit
 ===================
 
+Moved to GitLab
+-------------------
+
+EMC has moved to GitLab, at [https://gitlab.com/EMC-Framework/EDK](https://gitlab.com/EMC-Framework/EDK)
+
+About
+-------------------
+
 Development kit for [EMC](https://github.com/Moudoux/EMC)
 
 Setting up your IDE to develop with EMC
